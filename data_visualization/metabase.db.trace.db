@@ -1,0 +1,378 @@
+2018-09-27 12:33:24 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK [42102-197]
+2018-09-27 13:23:05 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 13:23:07 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 13:23:19 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 13:25:04 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 13:25:27 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 13:26:30 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 13:26:32 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 13:29:39 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 13:29:47 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 13:51:04 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 13:51:20 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 14:52:16 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 14:52:20 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 14:52:22 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:05 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:07 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:11 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:13 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:15 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:17 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:19 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:21 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:23 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:25 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:27 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:29 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:31 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:33 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:35 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:37 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:39 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:41 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:43 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:45 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:47 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:49 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:51 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:53 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:55 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:57 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:06:59 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:01 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:03 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:05 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:07 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:09 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:11 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:13 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:15 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:17 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:19 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:21 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:23 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:25 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:27 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:29 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:31 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:33 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:35 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:37 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:39 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:41 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:43 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:45 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:47 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:49 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:51 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:53 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:55 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:57 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:07:59 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:01 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:03 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:05 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:07 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:09 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:11 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:13 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:15 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:17 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:19 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:21 jdbc[19]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:23 jdbc[19]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:25 jdbc[19]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:27 jdbc[19]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:29 jdbc[19]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:31 jdbc[19]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:33 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:35 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:37 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:39 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:41 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:43 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:08:45 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:18:31 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:18:33 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:18:35 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:18:37 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:18:39 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:20:04 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:26:34 jdbc[19]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:28:48 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:29:13 jdbc[22]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:29:34 jdbc[22]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:29:36 jdbc[22]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:30:08 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:33:29 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:34:33 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:37:12 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:39:23 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:39:25 jdbc[20]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:43:43 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:43:49 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:43:51 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:45:00 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:45:02 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:45:04 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:45:06 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:45:08 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:45:10 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:45:12 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:45:14 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:45:16 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:45:39 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
+2018-09-27 15:45:41 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT ""TABLE_ID"", COUNT(*) AS ""COUNT"" FROM ""METABASE_FIELD"" WHERE ((""TABLE_ID"" IN NULL[*]) AND ""ACTIVE"" = TRUE AND (""SPECIAL_TYPE"" IN (?, ?))) GROUP BY ""TABLE_ID"" "; expected "("; SQL statement:
+SELECT "TABLE_ID", count(*) AS "COUNT" FROM "METABASE_FIELD" WHERE (("TABLE_ID" in NULL) AND "ACTIVE" = TRUE AND ("SPECIAL_TYPE" in (?, ?))) GROUP BY "TABLE_ID" [42001-197]
