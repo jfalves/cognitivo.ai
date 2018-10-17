@@ -22,4 +22,4 @@ Se tudo ocorrer normalmente, o dashboard poderá ser acessado no endereço `http
 Foi minha primeira experiência com o Metabase, porém o dashboard ficou simples demais para o que eu tinha em mente. Fiz um protótipo no `Apache Superset`, mas decidi não disponibilizar. Acredito que esse problema não aconteceria se eu estivesse utilizando ferramentas mais conceituadas como Tableau ou Power BI.
 Gostaria que o filtro fosse mais intuitivo bastando apenas selecionar um combo box, mas não consegui implementar, logo o usuário deve digitar ou colar os id's que pretende filtrar, o que é pessimo do ponto de vista de UX.
 
-![alt text](https://github.com/jfalves/cognitivo.ai/blob/master/data_visualization/doc/screeshot.png)
+![screenshot](https://github.com/jfalves/cognitivo.ai/blob/master/data_visualization/doc/screenshot.png)
