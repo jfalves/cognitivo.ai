@@ -51,3 +51,4 @@ docs/_build/
 
 metabase.jar
 metabase.db.mv.db
+venv/
