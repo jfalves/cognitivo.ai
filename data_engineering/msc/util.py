@@ -1,5 +1,7 @@
 import pandas as pd
+from sqlalchemy import inspect
 import fnmatch
+
 
 PATHS = {'price_quote':'data/price_quote.csv'
        ,'material_bill':'data/bill_of_materials.csv'
@@ -67,3 +69,7 @@ def convert_boolean(df, columns):
          df[each].replace(('Yes', 'No'), (True, False), inplace = True)
 
     return df
+
+def object_as_dict(obj):
+    return {c.key: getattr(obj, c.key)
+            for c in inspect(obj).mapper.column_attrs}

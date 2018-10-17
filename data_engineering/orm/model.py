@@ -9,6 +9,7 @@ class Supplier(Base):
 
     tube_assembly = relationship('PriceQuote', back_populates='supplier')
 
+
 class TubeAssembly(Base):
     __tablename__ = 'TubeAssembly'
     id = Column(String, primary_key=True)
