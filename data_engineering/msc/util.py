@@ -38,30 +38,25 @@ COLUMNS_MAP = {'supplier':{'supplier':'id'}
                              ,'quantity':'quantity'
                              ,'cost':'cost'}}
 
-def normalize(df, columns, level):
+def normalize(df, index, columns, level):
 
-    df_columns = df.columns
-    col1 = df_columns[0]
-
-    frames = pd.DataFrame()
+    df_normal = pd.DataFrame()
 
     for lvl in range(1, level+1):
-        normalized_col = []
+        columns_to_normalize = []
 
         for column in columns:
-            match = fnmatch.filter(df_columns, column+'*'+str(lvl))
-            normalized_col.append(match[0])
+            column_match = fnmatch.filter(df.columns, column+'*'+str(lvl))
+            columns_to_normalize.append(column_match[0])
 
-        renamed_col = dict(zip(normalized_col, columns))
-        df.rename(columns=renamed_col, inplace=True)
+        columns_new_names = dict(zip(columns_to_normalize, columns))
+        df_sliced = df.rename(columns=columns_new_names)
 
-        columns_tmp = columns
-        columns_tmp.append(col1)
-        frames = pd.concat([frames,df[columns_tmp]])
-        columns_tmp.remove(col1)
-        df.drop(columns=columns_tmp, inplace=True)
+        columns.append(index)
+        df_normal = pd.concat([df_normal, df_sliced[columns]])
+        columns.remove(index)
 
-    return  frames
+    return df_normal.dropna()
 
 def convert_boolean(df, columns):
 
@@ -70,6 +65,15 @@ def convert_boolean(df, columns):
 
     return df
 
+
+def convert_datetime(df, columns):
+
+    for each in columns:
+        df[each] = pd.to_datetime(df[each])
+
+    return df
+
 def object_as_dict(obj):
+
     return {c.key: getattr(obj, c.key)
             for c in inspect(obj).mapper.column_attrs}

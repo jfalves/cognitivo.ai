@@ -71,8 +71,8 @@ class PriceQuote(Base):
     quote_date = Column(Date, primary_key=True)
     annual_usage = Column(Integer, primary_key=True)
     min_order_quantity = Column(Integer, primary_key=True)
-    bracket_pricing = Column(Boolean)
     quantity = Column(Integer, primary_key=True)
+    bracket_pricing = Column(Boolean)
     cost = Column(DECIMAL(10,2))
 
     supplier = relationship('Supplier', back_populates='tube_assembly')
