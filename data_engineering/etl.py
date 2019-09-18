@@ -1,48 +1,7 @@
 from msc.util import *
+from orm.db import *
 from orm.model import *
 from orm import create_db, Session
-import pandas as pd
-from sqlalchemy import inspect
-
-def base_read(path):
-
-    df = pd.read_csv(path, parse_dates=True, dayfirst=True)
-
-    return df
-
-def base_load(df, Table, column_map, session):
-
-    table_map = inspect(Table)
-
-    column_name = [column.name for column in table_map.columns]
-    primary_key = [key.name for key in table_map.primary_key]
-
-    df = df.rename(columns=column_map)
-    df = df[column_name]
-    df = df.drop_duplicates(subset=primary_key)
-    df = df.set_index(keys=primary_key)
-
-    for idx, row in df.iterrows():
-
-        if type(idx) != tuple:
-            idx = [idx]
-        else:
-            idx = list(idx)
-
-        pks = dict(zip(primary_key,idx))
-        idx.extend(row)
-        cls = dict(zip(column_name,idx))
-
-        query = session.query(Table).filter_by(**pks)
-
-        if not session.query(query.exists()).scalar():
-            table_instance = Table(**cls)
-            session.add(table_instance)
-        else:
-            pass
-
-    print('Commit na tabela: {0}'.format(Table.__tablename__))
-    session.commit()
 
 def main():
 

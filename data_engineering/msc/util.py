@@ -65,7 +65,6 @@ def convert_boolean(df, columns):
 
     return df
 
-
 def convert_datetime(df, columns):
 
     for each in columns:
