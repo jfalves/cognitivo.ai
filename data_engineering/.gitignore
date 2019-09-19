@@ -1,1 +1,4 @@
+Pipfile.lock
 data/database.db
+airflow/logs/*
+airflow/airflow.db

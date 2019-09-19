@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "==1.0.3"
+SQLAlchemy = "==1.2.12"
+pandas = "==0.23.4"
+apache-airflow = "==1.10.3"
+
+[requires]
+python_version = "3.6"
